@@ -4,13 +4,13 @@ pipeline {
     stages {
         stage('Compile') {
             steps {
-                sh 'javac Addition'
+                sh 'python Subtraction.java'
             }
         }
 
         stage('Run') {
             steps {
-                sh 'Addition'
+                sh 'python Subtraction'
             }
         }
     }
