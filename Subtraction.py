@@ -1,6 +1,8 @@
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
+a = 20
+b = 10
 
 result = a - b
 
+print("First number =", a)
+print("Second number =", b)
 print("Subtraction =", result)
